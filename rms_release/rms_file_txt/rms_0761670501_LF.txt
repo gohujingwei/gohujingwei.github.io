@@ -1,0 +1,4 @@
+# energy_low(keV)  energy_high(keV)  fractional_rms  fractional_rms_error
+     0.300000           1.00000         0.0112932        0.00383168    
+      1.00000           2.00000        0.00556992        0.00913928    
+      2.00000           10.0000         0.0821853        0.00244799    
