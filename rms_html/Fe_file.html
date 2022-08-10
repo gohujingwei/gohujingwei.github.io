@@ -1,0 +1,1496 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>Fe K&alpha;</title>
+
+
+<style type="text/css">
+body {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  padding: 30px; }
+
+body > *:first-child {
+  margin-top: 0 !important; }
+body > *:last-child {
+  margin-bottom: 0 !important; }
+
+a {
+  color: #4183C4; }
+a.absent {
+  color: #cc0000; }
+a.anchor {
+  display: block;
+  padding-left: 30px;
+  margin-left: -30px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  cursor: text;
+  position: relative; }
+
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUM2NjlDQjI4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUM2NjlDQjM4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5QzY2OUNCMDg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5QzY2OUNCMTg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsQhXeAAAABfSURBVHjaYvz//z8DJYCRUgMYQAbAMBQIAvEqkBQWXI6sHqwHiwG70TTBxGaiWwjCTGgOUgJiF1J8wMRAIUA34B4Q76HUBelAfJYSA0CuMIEaRP8wGIkGMA54bgQIMACAmkXJi0hKJQAAAABJRU5ErkJggg==) no-repeat 10px center;
+  text-decoration: none; }
+
+h1 tt, h1 code {
+  font-size: inherit; }
+
+h2 tt, h2 code {
+  font-size: inherit; }
+
+h3 tt, h3 code {
+  font-size: inherit; }
+
+h4 tt, h4 code {
+  font-size: inherit; }
+
+h5 tt, h5 code {
+  font-size: inherit; }
+
+h6 tt, h6 code {
+  font-size: inherit; }
+
+h1 {
+  font-size: 28px;
+  color: black; }
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #cccccc;
+  color: black; }
+
+h3 {
+  font-size: 18px; }
+
+h4 {
+  font-size: 16px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  color: #777777;
+  font-size: 14px; }
+
+p, blockquote, ul, ol, dl, li, table, pre {
+  margin: 15px 0; }
+
+hr {
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
+  border: 0 none;
+  color: #cccccc;
+  height: 4px;
+  padding: 0;
+}
+
+body > h2:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+body > h1:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+  body > h1:first-child + h2 {
+    margin-top: 0;
+    padding-top: 0; }
+body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0; }
+
+h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
+  margin-top: 0; }
+
+li p.first {
+  display: inline-block; }
+li {
+  margin: 0; }
+ul, ol {
+  padding-left: 30px; }
+
+ul :first-child, ol :first-child {
+  margin-top: 0; }
+
+dl {
+  padding: 0; }
+  dl dt {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0;
+    margin: 15px 0 5px; }
+    dl dt:first-child {
+      padding: 0; }
+    dl dt > :first-child {
+      margin-top: 0; }
+    dl dt > :last-child {
+      margin-bottom: 0; }
+  dl dd {
+    margin: 0 0 15px;
+    padding: 0 15px; }
+    dl dd > :first-child {
+      margin-top: 0; }
+    dl dd > :last-child {
+      margin-bottom: 0; }
+
+blockquote {
+  border-left: 4px solid #dddddd;
+  padding: 0 15px;
+  color: #777777; }
+  blockquote > :first-child {
+    margin-top: 0; }
+  blockquote > :last-child {
+    margin-bottom: 0; }
+
+table {
+  padding: 0;border-collapse: collapse; }
+  table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0; }
+    table tr:nth-child(2n) {
+      background-color: #f8f8f8; }
+    table tr th {
+      font-weight: bold;
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr td {
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr th :first-child, table tr td :first-child {
+      margin-top: 0; }
+    table tr th :last-child, table tr td :last-child {
+      margin-bottom: 0; }
+
+img {
+  max-width: 100%; }
+
+span.frame {
+  display: block;
+  overflow: hidden; }
+  span.frame > span {
+    border: 1px solid #dddddd;
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin: 13px 0 0;
+    padding: 7px;
+    width: auto; }
+  span.frame span img {
+    display: block;
+    float: left; }
+  span.frame span span {
+    clear: both;
+    color: #333333;
+    display: block;
+    padding: 5px 0 0; }
+span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-center > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: center; }
+  span.align-center span img {
+    margin: 0 auto;
+    text-align: center; }
+span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px 0 0;
+    text-align: right; }
+  span.align-right span img {
+    margin: 0;
+    text-align: right; }
+span.float-left {
+  display: block;
+  margin-right: 13px;
+  overflow: hidden;
+  float: left; }
+  span.float-left span {
+    margin: 13px 0 0; }
+span.float-right {
+  display: block;
+  margin-left: 13px;
+  overflow: hidden;
+  float: right; }
+  span.float-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: right; }
+
+code, tt {
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px; }
+
+pre code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent; }
+
+.highlight pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+  pre code, pre tt {
+    background-color: transparent;
+    border: none; }
+
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+
+kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 11px;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb
+}
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:0 auto;
+    }
+}
+@media print {
+	table, pre {
+		page-break-inside: avoid;
+	}
+	pre {
+		word-wrap: break-word;
+	}
+}
+</style>
+
+
+</head>
+
+<body>
+
+
+
+
+
+<h1 id="toc_0">Time variability of Fe K&alpha;
+
+
+<h2 id="toc_2">Data/model ratios</h2>
+
+    The underlying continuum of the time-averaged spectrum (black crosses) and the rms spectra in LF (red filled dots) and HF (blue filled triangle) are fitted by ignoring the 5-7 keV range which contains potential contribution from Fe K emission lines.
+    <p></p>
+
+    Subsample of 140 observations used in the analysis of Fe line variability:
+    <a href="../rms_release/Fe_observation.csv">(Fe_observation.csv)</a>
+    <p></p>
+
+
+    <img src="../rms_release/Fe_plot_jpg/Fe_1H1934-063_2015-10-01_0761870201.jpg" width = "280" alt="Fe_1H1934-063_2015-10-01_0761870201.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_1H1934-063_2015-10-01_0761870201.eps">Fe_1H1934-063_2015-10-01_0761870201.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0761870201_LF.txt">rms_0761870201_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0761870201_HF.txt">rms_0761870201_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0761870201.zip">Fe_0761870201.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_3C120_2013-02-06_0693781601.jpg" width = "280" alt="Fe_3C120_2013-02-06_0693781601.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_3C120_2013-02-06_0693781601.eps">Fe_3C120_2013-02-06_0693781601.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0693781601_LF.txt">rms_0693781601_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0693781601_HF.txt">rms_0693781601_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0693781601.zip">Fe_0693781601.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_3C120_2013-02-07_0693781601_1.jpg" width = "280" alt="Fe_3C120_2013-02-07_0693781601_1.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_3C120_2013-02-07_0693781601_1.eps">Fe_3C120_2013-02-07_0693781601_1.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0693781601_1_LF.txt">rms_0693781601_1_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0693781601_1_HF.txt">rms_0693781601_1_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0693781601_1.zip">Fe_0693781601_1.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_Ark120_2014-03-20_0721600301.jpg" width = "280" alt="Fe_Ark120_2014-03-20_0721600301.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_Ark120_2014-03-20_0721600301.eps">Fe_Ark120_2014-03-20_0721600301.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0721600301_LF.txt">rms_0721600301_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0721600301_HF.txt">rms_0721600301_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0721600301.zip">Fe_0721600301.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_Ark120_2014-03-24_0721600501.jpg" width = "280" alt="Fe_Ark120_2014-03-24_0721600501.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_Ark120_2014-03-24_0721600501.eps">Fe_Ark120_2014-03-24_0721600501.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0721600501_LF.txt">rms_0721600501_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0721600501_HF.txt">rms_0721600501_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0721600501.zip">Fe_0721600501.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_Ark564_2011-06-11_0670130501.jpg" width = "280" alt="Fe_Ark564_2011-06-11_0670130501.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_Ark564_2011-06-11_0670130501.eps">Fe_Ark564_2011-06-11_0670130501.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0670130501_LF.txt">rms_0670130501_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0670130501_HF.txt">rms_0670130501_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0670130501.zip">Fe_0670130501.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_ESO362-G18_2010-01-29_0610180101.jpg" width = "280" alt="Fe_ESO362-G18_2010-01-29_0610180101.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_ESO362-G18_2010-01-29_0610180101.eps">Fe_ESO362-G18_2010-01-29_0610180101.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0610180101_LF.txt">rms_0610180101_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0610180101_HF.txt">rms_0610180101_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0610180101.zip">Fe_0610180101.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_ESO511-G030_2007-08-05_0502090201.jpg" width = "280" alt="Fe_ESO511-G030_2007-08-05_0502090201.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_ESO511-G030_2007-08-05_0502090201.eps">Fe_ESO511-G030_2007-08-05_0502090201.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0502090201_LF.txt">rms_0502090201_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0502090201_HF.txt">rms_0502090201_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0502090201.zip">Fe_0502090201.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_IRAS13349+2438_2006-07-16_0402080301.jpg" width = "280" alt="Fe_IRAS13349+2438_2006-07-16_0402080301.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_IRAS13349+2438_2006-07-16_0402080301.eps">Fe_IRAS13349+2438_2006-07-16_0402080301.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0402080301_LF.txt">rms_0402080301_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0402080301_HF.txt">rms_0402080301_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0402080301.zip">Fe_0402080301.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_IRAS18325-5926_2013-09-04_0724820101.jpg" width = "280" alt="Fe_IRAS18325-5926_2013-09-04_0724820101.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_IRAS18325-5926_2013-09-04_0724820101.eps">Fe_IRAS18325-5926_2013-09-04_0724820101.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0724820101_LF.txt">rms_0724820101_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0724820101_HF.txt">rms_0724820101_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0724820101.zip">Fe_0724820101.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_IRAS18325-5926_2013-10-15_0724820201.jpg" width = "280" alt="Fe_IRAS18325-5926_2013-10-15_0724820201.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_IRAS18325-5926_2013-10-15_0724820201.eps">Fe_IRAS18325-5926_2013-10-15_0724820201.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0724820201_LF.txt">rms_0724820201_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0724820201_HF.txt">rms_0724820201_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0724820201.zip">Fe_0724820201.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_IRAS18325-5926_2017-09-09_0795690101.jpg" width = "280" alt="Fe_IRAS18325-5926_2017-09-09_0795690101.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_IRAS18325-5926_2017-09-09_0795690101.eps">Fe_IRAS18325-5926_2017-09-09_0795690101.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0795690101_LF.txt">rms_0795690101_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0795690101_HF.txt">rms_0795690101_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0795690101.zip">Fe_0795690101.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_MCG-5-23-16_2001-12-01_0112830401.jpg" width = "280" alt="Fe_MCG-5-23-16_2001-12-01_0112830401.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_MCG-5-23-16_2001-12-01_0112830401.eps">Fe_MCG-5-23-16_2001-12-01_0112830401.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0112830401_LF.txt">rms_0112830401_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0112830401_HF.txt">rms_0112830401_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0112830401.zip">Fe_0112830401.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_MCG-5-23-16_2005-12-08_0302850201.jpg" width = "280" alt="Fe_MCG-5-23-16_2005-12-08_0302850201.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_MCG-5-23-16_2005-12-08_0302850201.eps">Fe_MCG-5-23-16_2005-12-08_0302850201.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0302850201_LF.txt">rms_0302850201_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0302850201_HF.txt">rms_0302850201_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0302850201.zip">Fe_0302850201.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_MCG-5-23-16_2013-06-24_0727960101.jpg" width = "280" alt="Fe_MCG-5-23-16_2013-06-24_0727960101.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_MCG-5-23-16_2013-06-24_0727960101.eps">Fe_MCG-5-23-16_2013-06-24_0727960101.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0727960101_LF.txt">rms_0727960101_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0727960101_HF.txt">rms_0727960101_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0727960101.zip">Fe_0727960101.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_MCG-5-23-16_2013-06-26_0727960201.jpg" width = "280" alt="Fe_MCG-5-23-16_2013-06-26_0727960201.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_MCG-5-23-16_2013-06-26_0727960201.eps">Fe_MCG-5-23-16_2013-06-26_0727960201.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0727960201_LF.txt">rms_0727960201_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0727960201_HF.txt">rms_0727960201_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0727960201.zip">Fe_0727960201.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_MCG-6-30-15_2001-07-31_0029740101.jpg" width = "280" alt="Fe_MCG-6-30-15_2001-07-31_0029740101.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_MCG-6-30-15_2001-07-31_0029740101.eps">Fe_MCG-6-30-15_2001-07-31_0029740101.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0029740101_LF.txt">rms_0029740101_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0029740101_HF.txt">rms_0029740101_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0029740101.zip">Fe_0029740101.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_MCG-6-30-15_2001-08-02_0029740701.jpg" width = "280" alt="Fe_MCG-6-30-15_2001-08-02_0029740701.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_MCG-6-30-15_2001-08-02_0029740701.eps">Fe_MCG-6-30-15_2001-08-02_0029740701.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0029740701_LF.txt">rms_0029740701_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0029740701_HF.txt">rms_0029740701_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0029740701.zip">Fe_0029740701.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_MCG-6-30-15_2001-08-04_0029740801.jpg" width = "280" alt="Fe_MCG-6-30-15_2001-08-04_0029740801.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_MCG-6-30-15_2001-08-04_0029740801.eps">Fe_MCG-6-30-15_2001-08-04_0029740801.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0029740801_LF.txt">rms_0029740801_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0029740801_HF.txt">rms_0029740801_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0029740801.zip">Fe_0029740801.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_MCG-6-30-15_2000-07-11_0111570101.jpg" width = "280" alt="Fe_MCG-6-30-15_2000-07-11_0111570101.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_MCG-6-30-15_2000-07-11_0111570101.eps">Fe_MCG-6-30-15_2000-07-11_0111570101.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0111570101_LF.txt">rms_0111570101_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0111570101_HF.txt">rms_0111570101_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0111570101.zip">Fe_0111570101.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_MCG-6-30-15_2000-07-11_0111570201.jpg" width = "280" alt="Fe_MCG-6-30-15_2000-07-11_0111570201.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_MCG-6-30-15_2000-07-11_0111570201.eps">Fe_MCG-6-30-15_2000-07-11_0111570201.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0111570201_LF.txt">rms_0111570201_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0111570201_HF.txt">rms_0111570201_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0111570201.zip">Fe_0111570201.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_MCG-6-30-15_2013-01-29_0693781201.jpg" width = "280" alt="Fe_MCG-6-30-15_2013-01-29_0693781201.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_MCG-6-30-15_2013-01-29_0693781201.eps">Fe_MCG-6-30-15_2013-01-29_0693781201.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0693781201_LF.txt">rms_0693781201_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0693781201_HF.txt">rms_0693781201_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0693781201.zip">Fe_0693781201.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_MCG-6-30-15_2013-01-31_0693781301.jpg" width = "280" alt="Fe_MCG-6-30-15_2013-01-31_0693781301.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_MCG-6-30-15_2013-01-31_0693781301.eps">Fe_MCG-6-30-15_2013-01-31_0693781301.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0693781301_LF.txt">rms_0693781301_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0693781301_HF.txt">rms_0693781301_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0693781301.zip">Fe_0693781301.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_MCG-6-30-15_2013-02-02_0693781401.jpg" width = "280" alt="Fe_MCG-6-30-15_2013-02-02_0693781401.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_MCG-6-30-15_2013-02-02_0693781401.eps">Fe_MCG-6-30-15_2013-02-02_0693781401.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0693781401_LF.txt">rms_0693781401_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0693781401_HF.txt">rms_0693781401_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0693781401.zip">Fe_0693781401.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_Mrk1040_2009-02-13_0554990101.jpg" width = "280" alt="Fe_Mrk1040_2009-02-13_0554990101.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_Mrk1040_2009-02-13_0554990101.eps">Fe_Mrk1040_2009-02-13_0554990101.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0554990101_LF.txt">rms_0554990101_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0554990101_HF.txt">rms_0554990101_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0554990101.zip">Fe_0554990101.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_Mrk1040_2015-08-13_0760530201.jpg" width = "280" alt="Fe_Mrk1040_2015-08-13_0760530201.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_Mrk1040_2015-08-13_0760530201.eps">Fe_Mrk1040_2015-08-13_0760530201.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0760530201_LF.txt">rms_0760530201_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0760530201_HF.txt">rms_0760530201_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0760530201.zip">Fe_0760530201.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_Mrk1040_2015-08-15_0760530301.jpg" width = "280" alt="Fe_Mrk1040_2015-08-15_0760530301.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_Mrk1040_2015-08-15_0760530301.eps">Fe_Mrk1040_2015-08-15_0760530301.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0760530301_LF.txt">rms_0760530301_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0760530301_HF.txt">rms_0760530301_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0760530301.zip">Fe_0760530301.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_Mrk1044_2013-01-27_0695290101.jpg" width = "280" alt="Fe_Mrk1044_2013-01-27_0695290101.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_Mrk1044_2013-01-27_0695290101.eps">Fe_Mrk1044_2013-01-27_0695290101.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0695290101_LF.txt">rms_0695290101_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0695290101_HF.txt">rms_0695290101_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0695290101.zip">Fe_0695290101.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_Mrk1044_2018-08-03_0824080301.jpg" width = "280" alt="Fe_Mrk1044_2018-08-03_0824080301.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_Mrk1044_2018-08-03_0824080301.eps">Fe_Mrk1044_2018-08-03_0824080301.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0824080301_LF.txt">rms_0824080301_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0824080301_HF.txt">rms_0824080301_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0824080301.zip">Fe_0824080301.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_Mrk1044_2018-08-05_0824080401.jpg" width = "280" alt="Fe_Mrk1044_2018-08-05_0824080401.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_Mrk1044_2018-08-05_0824080401.eps">Fe_Mrk1044_2018-08-05_0824080401.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0824080401_LF.txt">rms_0824080401_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0824080401_HF.txt">rms_0824080401_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0824080401.zip">Fe_0824080401.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_Mrk1044_2018-08-07_0824080501.jpg" width = "280" alt="Fe_Mrk1044_2018-08-07_0824080501.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_Mrk1044_2018-08-07_0824080501.eps">Fe_Mrk1044_2018-08-07_0824080501.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0824080501_LF.txt">rms_0824080501_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0824080501_HF.txt">rms_0824080501_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0824080501.zip">Fe_0824080501.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_Mrk1044_2019-08-03_0841820201.jpg" width = "280" alt="Fe_Mrk1044_2019-08-03_0841820201.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_Mrk1044_2019-08-03_0841820201.eps">Fe_Mrk1044_2019-08-03_0841820201.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0841820201_LF.txt">rms_0841820201_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0841820201_HF.txt">rms_0841820201_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0841820201.zip">Fe_0841820201.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_Mrk335_2006-01-03_0306870101.jpg" width = "280" alt="Fe_Mrk335_2006-01-03_0306870101.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_Mrk335_2006-01-03_0306870101.eps">Fe_Mrk335_2006-01-03_0306870101.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0306870101_LF.txt">rms_0306870101_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0306870101_HF.txt">rms_0306870101_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0306870101.zip">Fe_0306870101.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_Mrk335_2009-06-11_0600540601.jpg" width = "280" alt="Fe_Mrk335_2009-06-11_0600540601.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_Mrk335_2009-06-11_0600540601.eps">Fe_Mrk335_2009-06-11_0600540601.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0600540601_LF.txt">rms_0600540601_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0600540601_HF.txt">rms_0600540601_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0600540601.zip">Fe_0600540601.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_Mrk335_2015-12-30_0741280201.jpg" width = "280" alt="Fe_Mrk335_2015-12-30_0741280201.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_Mrk335_2015-12-30_0741280201.eps">Fe_Mrk335_2015-12-30_0741280201.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0741280201_LF.txt">rms_0741280201_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0741280201_HF.txt">rms_0741280201_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0741280201.zip">Fe_0741280201.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_Mrk509_2009-10-29_0601390501.jpg" width = "280" alt="Fe_Mrk509_2009-10-29_0601390501.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_Mrk509_2009-10-29_0601390501.eps">Fe_Mrk509_2009-10-29_0601390501.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0601390501_LF.txt">rms_0601390501_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0601390501_HF.txt">rms_0601390501_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0601390501.zip">Fe_0601390501.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_Mrk509_2009-11-10_0601390801.jpg" width = "280" alt="Fe_Mrk509_2009-11-10_0601390801.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_Mrk509_2009-11-10_0601390801.eps">Fe_Mrk509_2009-11-10_0601390801.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0601390801_LF.txt">rms_0601390801_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0601390801_HF.txt">rms_0601390801_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0601390801.zip">Fe_0601390801.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_Mrk509_2009-11-18_0601391001.jpg" width = "280" alt="Fe_Mrk509_2009-11-18_0601391001.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_Mrk509_2009-11-18_0601391001.eps">Fe_Mrk509_2009-11-18_0601391001.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0601391001_LF.txt">rms_0601391001_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0601391001_HF.txt">rms_0601391001_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0601391001.zip">Fe_0601391001.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_Mrk766_2000-05-20_0096020101.jpg" width = "280" alt="Fe_Mrk766_2000-05-20_0096020101.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_Mrk766_2000-05-20_0096020101.eps">Fe_Mrk766_2000-05-20_0096020101.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0096020101_LF.txt">rms_0096020101_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0096020101_HF.txt">rms_0096020101_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0096020101.zip">Fe_0096020101.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_Mrk766_2001-05-20_0109141301.jpg" width = "280" alt="Fe_Mrk766_2001-05-20_0109141301.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_Mrk766_2001-05-20_0109141301.eps">Fe_Mrk766_2001-05-20_0109141301.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0109141301_LF.txt">rms_0109141301_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0109141301_HF.txt">rms_0109141301_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0109141301.zip">Fe_0109141301.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_Mrk766_2005-05-23_0304030101.jpg" width = "280" alt="Fe_Mrk766_2005-05-23_0304030101.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_Mrk766_2005-05-23_0304030101.eps">Fe_Mrk766_2005-05-23_0304030101.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0304030101_LF.txt">rms_0304030101_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0304030101_HF.txt">rms_0304030101_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0304030101.zip">Fe_0304030101.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_Mrk766_2005-05-25_0304030301.jpg" width = "280" alt="Fe_Mrk766_2005-05-25_0304030301.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_Mrk766_2005-05-25_0304030301.eps">Fe_Mrk766_2005-05-25_0304030301.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0304030301_LF.txt">rms_0304030301_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0304030301_HF.txt">rms_0304030301_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0304030301.zip">Fe_0304030301.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_Mrk766_2005-05-27_0304030401.jpg" width = "280" alt="Fe_Mrk766_2005-05-27_0304030401.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_Mrk766_2005-05-27_0304030401.eps">Fe_Mrk766_2005-05-27_0304030401.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0304030401_LF.txt">rms_0304030401_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0304030401_HF.txt">rms_0304030401_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0304030401.zip">Fe_0304030401.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_Mrk766_2005-05-29_0304030501.jpg" width = "280" alt="Fe_Mrk766_2005-05-29_0304030501.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_Mrk766_2005-05-29_0304030501.eps">Fe_Mrk766_2005-05-29_0304030501.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0304030501_LF.txt">rms_0304030501_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0304030501_HF.txt">rms_0304030501_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0304030501.zip">Fe_0304030501.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_Mrk766_2005-05-31_0304030601.jpg" width = "280" alt="Fe_Mrk766_2005-05-31_0304030601.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_Mrk766_2005-05-31_0304030601.eps">Fe_Mrk766_2005-05-31_0304030601.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0304030601_LF.txt">rms_0304030601_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0304030601_HF.txt">rms_0304030601_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0304030601.zip">Fe_0304030601.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_Mrk841_2005-01-16_0205340201.jpg" width = "280" alt="Fe_Mrk841_2005-01-16_0205340201.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_Mrk841_2005-01-16_0205340201.eps">Fe_Mrk841_2005-01-16_0205340201.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0205340201_LF.txt">rms_0205340201_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0205340201_HF.txt">rms_0205340201_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0205340201.zip">Fe_0205340201.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC1365_2004-01-17_0205590301.jpg" width = "280" alt="Fe_NGC1365_2004-01-17_0205590301.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC1365_2004-01-17_0205590301.eps">Fe_NGC1365_2004-01-17_0205590301.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0205590301_LF.txt">rms_0205590301_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0205590301_HF.txt">rms_0205590301_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0205590301.zip">Fe_0205590301.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC1365_2004-07-24_0205590401.jpg" width = "280" alt="Fe_NGC1365_2004-07-24_0205590401.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC1365_2004-07-24_0205590401.eps">Fe_NGC1365_2004-07-24_0205590401.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0205590401_LF.txt">rms_0205590401_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0205590401_HF.txt">rms_0205590401_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0205590401.zip">Fe_0205590401.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC1365_2012-07-25_0692840201.jpg" width = "280" alt="Fe_NGC1365_2012-07-25_0692840201.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC1365_2012-07-25_0692840201.eps">Fe_NGC1365_2012-07-25_0692840201.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0692840201_LF.txt">rms_0692840201_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0692840201_HF.txt">rms_0692840201_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0692840201.zip">Fe_0692840201.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC1365_2012-12-24_0692840301.jpg" width = "280" alt="Fe_NGC1365_2012-12-24_0692840301.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC1365_2012-12-24_0692840301.eps">Fe_NGC1365_2012-12-24_0692840301.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0692840301_LF.txt">rms_0692840301_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0692840301_HF.txt">rms_0692840301_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0692840301.zip">Fe_0692840301.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC1365_2013-01-23_0692840401.jpg" width = "280" alt="Fe_NGC1365_2013-01-23_0692840401.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC1365_2013-01-23_0692840401.eps">Fe_NGC1365_2013-01-23_0692840401.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0692840401_LF.txt">rms_0692840401_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0692840401_HF.txt">rms_0692840401_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0692840401.zip">Fe_0692840401.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC1365_2013-02-12_0692840501.jpg" width = "280" alt="Fe_NGC1365_2013-02-12_0692840501.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC1365_2013-02-12_0692840501.eps">Fe_NGC1365_2013-02-12_0692840501.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0692840501_LF.txt">rms_0692840501_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0692840501_HF.txt">rms_0692840501_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0692840501.zip">Fe_0692840501.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC1566_2018-06-27_0800840201.jpg" width = "280" alt="Fe_NGC1566_2018-06-27_0800840201.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC1566_2018-06-27_0800840201.eps">Fe_NGC1566_2018-06-27_0800840201.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0800840201_LF.txt">rms_0800840201_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0800840201_HF.txt">rms_0800840201_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0800840201.zip">Fe_0800840201.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC1566_2018-10-04_0820530401.jpg" width = "280" alt="Fe_NGC1566_2018-10-04_0820530401.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC1566_2018-10-04_0820530401.eps">Fe_NGC1566_2018-10-04_0820530401.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0820530401_LF.txt">rms_0820530401_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0820530401_HF.txt">rms_0820530401_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0820530401.zip">Fe_0820530401.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC2992_2010-05-26_0654910501.jpg" width = "280" alt="Fe_NGC2992_2010-05-26_0654910501.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC2992_2010-05-26_0654910501.eps">Fe_NGC2992_2010-05-26_0654910501.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0654910501_LF.txt">rms_0654910501_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0654910501_HF.txt">rms_0654910501_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0654910501.zip">Fe_0654910501.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC3227_2000-11-28_0101040301.jpg" width = "280" alt="Fe_NGC3227_2000-11-28_0101040301.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC3227_2000-11-28_0101040301.eps">Fe_NGC3227_2000-11-28_0101040301.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0101040301_LF.txt">rms_0101040301_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0101040301_HF.txt">rms_0101040301_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0101040301.zip">Fe_0101040301.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC3227_2006-12-03_0400270101.jpg" width = "280" alt="Fe_NGC3227_2006-12-03_0400270101.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC3227_2006-12-03_0400270101.eps">Fe_NGC3227_2006-12-03_0400270101.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0400270101_LF.txt">rms_0400270101_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0400270101_HF.txt">rms_0400270101_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0400270101.zip">Fe_0400270101.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC3227_2016-11-09_0782520201.jpg" width = "280" alt="Fe_NGC3227_2016-11-09_0782520201.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC3227_2016-11-09_0782520201.eps">Fe_NGC3227_2016-11-09_0782520201.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0782520201_LF.txt">rms_0782520201_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0782520201_HF.txt">rms_0782520201_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0782520201.zip">Fe_0782520201.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC3227_2016-11-10_0782520201_1.jpg" width = "280" alt="Fe_NGC3227_2016-11-10_0782520201_1.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC3227_2016-11-10_0782520201_1.eps">Fe_NGC3227_2016-11-10_0782520201_1.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0782520201_1_LF.txt">rms_0782520201_1_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0782520201_1_HF.txt">rms_0782520201_1_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0782520201_1.zip">Fe_0782520201_1.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC3227_2016-11-25_0782520301.jpg" width = "280" alt="Fe_NGC3227_2016-11-25_0782520301.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC3227_2016-11-25_0782520301.eps">Fe_NGC3227_2016-11-25_0782520301.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0782520301_LF.txt">rms_0782520301_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0782520301_HF.txt">rms_0782520301_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0782520301.zip">Fe_0782520301.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC3227_2016-11-29_0782520401.jpg" width = "280" alt="Fe_NGC3227_2016-11-29_0782520401.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC3227_2016-11-29_0782520401.eps">Fe_NGC3227_2016-11-29_0782520401.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0782520401_LF.txt">rms_0782520401_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0782520401_HF.txt">rms_0782520401_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0782520401.zip">Fe_0782520401.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC3227_2016-12-01_0782520501.jpg" width = "280" alt="Fe_NGC3227_2016-12-01_0782520501.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC3227_2016-12-01_0782520501.eps">Fe_NGC3227_2016-12-01_0782520501.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0782520501_LF.txt">rms_0782520501_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0782520501_HF.txt">rms_0782520501_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0782520501.zip">Fe_0782520501.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC3227_2016-12-05_0782520601.jpg" width = "280" alt="Fe_NGC3227_2016-12-05_0782520601.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC3227_2016-12-05_0782520601.eps">Fe_NGC3227_2016-12-05_0782520601.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0782520601_LF.txt">rms_0782520601_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0782520601_HF.txt">rms_0782520601_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0782520601.zip">Fe_0782520601.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC3227_2016-12-09_0782520701.jpg" width = "280" alt="Fe_NGC3227_2016-12-09_0782520701.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC3227_2016-12-09_0782520701.eps">Fe_NGC3227_2016-12-09_0782520701.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0782520701_LF.txt">rms_0782520701_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0782520701_HF.txt">rms_0782520701_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0782520701.zip">Fe_0782520701.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC3516_2001-04-10_0107460601.jpg" width = "280" alt="Fe_NGC3516_2001-04-10_0107460601.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC3516_2001-04-10_0107460601.eps">Fe_NGC3516_2001-04-10_0107460601.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0107460601_LF.txt">rms_0107460601_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0107460601_HF.txt">rms_0107460601_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0107460601.zip">Fe_0107460601.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC3516_2001-11-09_0107460701.jpg" width = "280" alt="Fe_NGC3516_2001-11-09_0107460701.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC3516_2001-11-09_0107460701.eps">Fe_NGC3516_2001-11-09_0107460701.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0107460701_LF.txt">rms_0107460701_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0107460701_HF.txt">rms_0107460701_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0107460701.zip">Fe_0107460701.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC3516_2006-10-06_0401210401.jpg" width = "280" alt="Fe_NGC3516_2006-10-06_0401210401.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC3516_2006-10-06_0401210401.eps">Fe_NGC3516_2006-10-06_0401210401.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0401210401_LF.txt">rms_0401210401_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0401210401_HF.txt">rms_0401210401_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0401210401.zip">Fe_0401210401.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC3516_2006-10-08_0401210501.jpg" width = "280" alt="Fe_NGC3516_2006-10-08_0401210501.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC3516_2006-10-08_0401210501.eps">Fe_NGC3516_2006-10-08_0401210501.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0401210501_LF.txt">rms_0401210501_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0401210501_HF.txt">rms_0401210501_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0401210501.zip">Fe_0401210501.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC3516_2006-10-10_0401210601.jpg" width = "280" alt="Fe_NGC3516_2006-10-10_0401210601.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC3516_2006-10-10_0401210601.eps">Fe_NGC3516_2006-10-10_0401210601.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0401210601_LF.txt">rms_0401210601_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0401210601_HF.txt">rms_0401210601_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0401210601.zip">Fe_0401210601.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC3516_2006-10-12_0401211001.jpg" width = "280" alt="Fe_NGC3516_2006-10-12_0401211001.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC3516_2006-10-12_0401211001.eps">Fe_NGC3516_2006-10-12_0401211001.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0401211001_LF.txt">rms_0401211001_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0401211001_HF.txt">rms_0401211001_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0401211001.zip">Fe_0401211001.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC3783_2001-12-17_0112210201.jpg" width = "280" alt="Fe_NGC3783_2001-12-17_0112210201.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC3783_2001-12-17_0112210201.eps">Fe_NGC3783_2001-12-17_0112210201.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0112210201_LF.txt">rms_0112210201_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0112210201_HF.txt">rms_0112210201_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0112210201.zip">Fe_0112210201.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC3783_2001-12-18_0112210201_1.jpg" width = "280" alt="Fe_NGC3783_2001-12-18_0112210201_1.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC3783_2001-12-18_0112210201_1.eps">Fe_NGC3783_2001-12-18_0112210201_1.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0112210201_1_LF.txt">rms_0112210201_1_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0112210201_1_HF.txt">rms_0112210201_1_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0112210201_1.zip">Fe_0112210201_1.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC3783_2001-12-19_0112210501.jpg" width = "280" alt="Fe_NGC3783_2001-12-19_0112210501.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC3783_2001-12-19_0112210501.eps">Fe_NGC3783_2001-12-19_0112210501.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0112210501_LF.txt">rms_0112210501_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0112210501_HF.txt">rms_0112210501_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0112210501.zip">Fe_0112210501.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC3783_2016-12-11_0780860901.jpg" width = "280" alt="Fe_NGC3783_2016-12-11_0780860901.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC3783_2016-12-11_0780860901.eps">Fe_NGC3783_2016-12-11_0780860901.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0780860901_LF.txt">rms_0780860901_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0780860901_HF.txt">rms_0780860901_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0780860901.zip">Fe_0780860901.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC3783_2016-12-21_0780861001.jpg" width = "280" alt="Fe_NGC3783_2016-12-21_0780861001.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC3783_2016-12-21_0780861001.eps">Fe_NGC3783_2016-12-21_0780861001.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0780861001_LF.txt">rms_0780861001_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0780861001_HF.txt">rms_0780861001_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0780861001.zip">Fe_0780861001.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC4051_2001-05-16_0109141401.jpg" width = "280" alt="Fe_NGC4051_2001-05-16_0109141401.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC4051_2001-05-16_0109141401.eps">Fe_NGC4051_2001-05-16_0109141401.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0109141401_LF.txt">rms_0109141401_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0109141401_HF.txt">rms_0109141401_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0109141401.zip">Fe_0109141401.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC4051_2002-11-22_0157560101.jpg" width = "280" alt="Fe_NGC4051_2002-11-22_0157560101.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC4051_2002-11-22_0157560101.eps">Fe_NGC4051_2002-11-22_0157560101.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0157560101_LF.txt">rms_0157560101_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0157560101_HF.txt">rms_0157560101_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0157560101.zip">Fe_0157560101.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC4051_2009-05-03_0606320101.jpg" width = "280" alt="Fe_NGC4051_2009-05-03_0606320101.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC4051_2009-05-03_0606320101.eps">Fe_NGC4051_2009-05-03_0606320101.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0606320101_LF.txt">rms_0606320101_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0606320101_HF.txt">rms_0606320101_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0606320101.zip">Fe_0606320101.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC4051_2009-05-05_0606320201.jpg" width = "280" alt="Fe_NGC4051_2009-05-05_0606320201.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC4051_2009-05-05_0606320201.eps">Fe_NGC4051_2009-05-05_0606320201.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0606320201_LF.txt">rms_0606320201_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0606320201_HF.txt">rms_0606320201_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0606320201.zip">Fe_0606320201.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC4051_2009-05-11_0606320401.jpg" width = "280" alt="Fe_NGC4051_2009-05-11_0606320401.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC4051_2009-05-11_0606320401.eps">Fe_NGC4051_2009-05-11_0606320401.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0606320401_LF.txt">rms_0606320401_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0606320401_HF.txt">rms_0606320401_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0606320401.zip">Fe_0606320401.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC4051_2009-05-15_0606321301.jpg" width = "280" alt="Fe_NGC4051_2009-05-15_0606321301.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC4051_2009-05-15_0606321301.eps">Fe_NGC4051_2009-05-15_0606321301.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0606321301_LF.txt">rms_0606321301_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0606321301_HF.txt">rms_0606321301_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0606321301.zip">Fe_0606321301.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC4051_2009-05-17_0606321401.jpg" width = "280" alt="Fe_NGC4051_2009-05-17_0606321401.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC4051_2009-05-17_0606321401.eps">Fe_NGC4051_2009-05-17_0606321401.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0606321401_LF.txt">rms_0606321401_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0606321401_HF.txt">rms_0606321401_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0606321401.zip">Fe_0606321401.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC4051_2009-05-19_0606321501.jpg" width = "280" alt="Fe_NGC4051_2009-05-19_0606321501.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC4051_2009-05-19_0606321501.eps">Fe_NGC4051_2009-05-19_0606321501.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0606321501_LF.txt">rms_0606321501_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0606321501_HF.txt">rms_0606321501_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0606321501.zip">Fe_0606321501.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC4051_2009-05-21_0606321601.jpg" width = "280" alt="Fe_NGC4051_2009-05-21_0606321601.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC4051_2009-05-21_0606321601.eps">Fe_NGC4051_2009-05-21_0606321601.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0606321601_LF.txt">rms_0606321601_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0606321601_HF.txt">rms_0606321601_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0606321601.zip">Fe_0606321601.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC4051_2009-05-27_0606321701.jpg" width = "280" alt="Fe_NGC4051_2009-05-27_0606321701.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC4051_2009-05-27_0606321701.eps">Fe_NGC4051_2009-05-27_0606321701.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0606321701_LF.txt">rms_0606321701_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0606321701_HF.txt">rms_0606321701_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0606321701.zip">Fe_0606321701.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC4051_2009-05-29_0606321801.jpg" width = "280" alt="Fe_NGC4051_2009-05-29_0606321801.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC4051_2009-05-29_0606321801.eps">Fe_NGC4051_2009-05-29_0606321801.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0606321801_LF.txt">rms_0606321801_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0606321801_HF.txt">rms_0606321801_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0606321801.zip">Fe_0606321801.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC4051_2009-06-02_0606321901.jpg" width = "280" alt="Fe_NGC4051_2009-06-02_0606321901.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC4051_2009-06-02_0606321901.eps">Fe_NGC4051_2009-06-02_0606321901.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0606321901_LF.txt">rms_0606321901_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0606321901_HF.txt">rms_0606321901_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0606321901.zip">Fe_0606321901.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC4051_2009-06-04_0606322001.jpg" width = "280" alt="Fe_NGC4051_2009-06-04_0606322001.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC4051_2009-06-04_0606322001.eps">Fe_NGC4051_2009-06-04_0606322001.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0606322001_LF.txt">rms_0606322001_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0606322001_HF.txt">rms_0606322001_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0606322001.zip">Fe_0606322001.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC4051_2009-06-08_0606322101.jpg" width = "280" alt="Fe_NGC4051_2009-06-08_0606322101.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC4051_2009-06-08_0606322101.eps">Fe_NGC4051_2009-06-08_0606322101.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0606322101_LF.txt">rms_0606322101_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0606322101_HF.txt">rms_0606322101_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0606322101.zip">Fe_0606322101.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC4051_2009-06-10_0606322201.jpg" width = "280" alt="Fe_NGC4051_2009-06-10_0606322201.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC4051_2009-06-10_0606322201.eps">Fe_NGC4051_2009-06-10_0606322201.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0606322201_LF.txt">rms_0606322201_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0606322201_HF.txt">rms_0606322201_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0606322201.zip">Fe_0606322201.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC4051_2018-11-07_0830430201.jpg" width = "280" alt="Fe_NGC4051_2018-11-07_0830430201.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC4051_2018-11-07_0830430201.eps">Fe_NGC4051_2018-11-07_0830430201.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0830430201_LF.txt">rms_0830430201_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0830430201_HF.txt">rms_0830430201_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0830430201.zip">Fe_0830430201.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC4051_2018-11-09_0830430801.jpg" width = "280" alt="Fe_NGC4051_2018-11-09_0830430801.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC4051_2018-11-09_0830430801.eps">Fe_NGC4051_2018-11-09_0830430801.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0830430801_LF.txt">rms_0830430801_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0830430801_HF.txt">rms_0830430801_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0830430801.zip">Fe_0830430801.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC4151_2000-12-22_0112830201.jpg" width = "280" alt="Fe_NGC4151_2000-12-22_0112830201.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC4151_2000-12-22_0112830201.eps">Fe_NGC4151_2000-12-22_0112830201.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0112830201_LF.txt">rms_0112830201_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0112830201_HF.txt">rms_0112830201_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0112830201.zip">Fe_0112830201.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC4151_2003-05-27_0143500301.jpg" width = "280" alt="Fe_NGC4151_2003-05-27_0143500301.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC4151_2003-05-27_0143500301.eps">Fe_NGC4151_2003-05-27_0143500301.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0143500301_LF.txt">rms_0143500301_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0143500301_HF.txt">rms_0143500301_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0143500301.zip">Fe_0143500301.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC4151_2015-11-12_0761670101.jpg" width = "280" alt="Fe_NGC4151_2015-11-12_0761670101.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC4151_2015-11-12_0761670101.eps">Fe_NGC4151_2015-11-12_0761670101.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0761670101_LF.txt">rms_0761670101_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0761670101_HF.txt">rms_0761670101_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0761670101.zip">Fe_0761670101.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC4151_2015-11-20_0761670501.jpg" width = "280" alt="Fe_NGC4151_2015-11-20_0761670501.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC4151_2015-11-20_0761670501.eps">Fe_NGC4151_2015-11-20_0761670501.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0761670501_LF.txt">rms_0761670501_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0761670501_HF.txt">rms_0761670501_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0761670501.zip">Fe_0761670501.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC4151_2015-11-22_0761670601.jpg" width = "280" alt="Fe_NGC4151_2015-11-22_0761670601.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC4151_2015-11-22_0761670601.eps">Fe_NGC4151_2015-11-22_0761670601.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0761670601_LF.txt">rms_0761670601_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0761670601_HF.txt">rms_0761670601_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0761670601.zip">Fe_0761670601.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC4151_2015-12-16_0761670701.jpg" width = "280" alt="Fe_NGC4151_2015-12-16_0761670701.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC4151_2015-12-16_0761670701.eps">Fe_NGC4151_2015-12-16_0761670701.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0761670701_LF.txt">rms_0761670701_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0761670701_HF.txt">rms_0761670701_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0761670701.zip">Fe_0761670701.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC4151_2015-12-22_0761670901.jpg" width = "280" alt="Fe_NGC4151_2015-12-22_0761670901.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC4151_2015-12-22_0761670901.eps">Fe_NGC4151_2015-12-22_0761670901.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0761670901_LF.txt">rms_0761670901_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0761670901_HF.txt">rms_0761670901_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0761670901.zip">Fe_0761670901.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC4395_2003-11-30_0142830101.jpg" width = "280" alt="Fe_NGC4395_2003-11-30_0142830101.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC4395_2003-11-30_0142830101.eps">Fe_NGC4395_2003-11-30_0142830101.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0142830101_LF.txt">rms_0142830101_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0142830101_HF.txt">rms_0142830101_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0142830101.zip">Fe_0142830101.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC4395_2014-12-28_0744010101.jpg" width = "280" alt="Fe_NGC4395_2014-12-28_0744010101.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC4395_2014-12-28_0744010101.eps">Fe_NGC4395_2014-12-28_0744010101.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0744010101_LF.txt">rms_0744010101_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0744010101_HF.txt">rms_0744010101_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0744010101.zip">Fe_0744010101.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC4593_2002-06-23_0059830101.jpg" width = "280" alt="Fe_NGC4593_2002-06-23_0059830101.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC4593_2002-06-23_0059830101.eps">Fe_NGC4593_2002-06-23_0059830101.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0059830101_LF.txt">rms_0059830101_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0059830101_HF.txt">rms_0059830101_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0059830101.zip">Fe_0059830101.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC4593_2014-12-29_0740920201.jpg" width = "280" alt="Fe_NGC4593_2014-12-29_0740920201.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC4593_2014-12-29_0740920201.eps">Fe_NGC4593_2014-12-29_0740920201.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0740920201_LF.txt">rms_0740920201_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0740920201_HF.txt">rms_0740920201_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0740920201.zip">Fe_0740920201.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC4593_2015-01-06_0740920601.jpg" width = "280" alt="Fe_NGC4593_2015-01-06_0740920601.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC4593_2015-01-06_0740920601.eps">Fe_NGC4593_2015-01-06_0740920601.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0740920601_LF.txt">rms_0740920601_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0740920601_HF.txt">rms_0740920601_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0740920601.zip">Fe_0740920601.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC4593_2016-07-14_0784740101.jpg" width = "280" alt="Fe_NGC4593_2016-07-14_0784740101.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC4593_2016-07-14_0784740101.eps">Fe_NGC4593_2016-07-14_0784740101.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0784740101_LF.txt">rms_0784740101_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0784740101_HF.txt">rms_0784740101_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0784740101.zip">Fe_0784740101.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC5273_2017-06-02_0805080401.jpg" width = "280" alt="Fe_NGC5273_2017-06-02_0805080401.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC5273_2017-06-02_0805080401.eps">Fe_NGC5273_2017-06-02_0805080401.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0805080401_LF.txt">rms_0805080401_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0805080401_HF.txt">rms_0805080401_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0805080401.zip">Fe_0805080401.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC5506_2001-02-02_0013140101.jpg" width = "280" alt="Fe_NGC5506_2001-02-02_0013140101.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC5506_2001-02-02_0013140101.eps">Fe_NGC5506_2001-02-02_0013140101.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0013140101_LF.txt">rms_0013140101_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0013140101_HF.txt">rms_0013140101_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0013140101.zip">Fe_0013140101.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC5506_2004-07-11_0201830201.jpg" width = "280" alt="Fe_NGC5506_2004-07-11_0201830201.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC5506_2004-07-11_0201830201.eps">Fe_NGC5506_2004-07-11_0201830201.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0201830201_LF.txt">rms_0201830201_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0201830201_HF.txt">rms_0201830201_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0201830201.zip">Fe_0201830201.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC5506_2004-07-22_0201830401.jpg" width = "280" alt="Fe_NGC5506_2004-07-22_0201830401.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC5506_2004-07-22_0201830401.eps">Fe_NGC5506_2004-07-22_0201830401.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0201830401_LF.txt">rms_0201830401_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0201830401_HF.txt">rms_0201830401_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0201830401.zip">Fe_0201830401.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC5506_2004-08-07_0201830501.jpg" width = "280" alt="Fe_NGC5506_2004-08-07_0201830501.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC5506_2004-08-07_0201830501.eps">Fe_NGC5506_2004-08-07_0201830501.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0201830501_LF.txt">rms_0201830501_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0201830501_HF.txt">rms_0201830501_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0201830501.zip">Fe_0201830501.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC5506_2009-01-02_0554170101.jpg" width = "280" alt="Fe_NGC5506_2009-01-02_0554170101.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC5506_2009-01-02_0554170101.eps">Fe_NGC5506_2009-01-02_0554170101.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0554170101_LF.txt">rms_0554170101_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0554170101_HF.txt">rms_0554170101_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0554170101.zip">Fe_0554170101.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC5506_2008-07-27_0554170201.jpg" width = "280" alt="Fe_NGC5506_2008-07-27_0554170201.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC5506_2008-07-27_0554170201.eps">Fe_NGC5506_2008-07-27_0554170201.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0554170201_LF.txt">rms_0554170201_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0554170201_HF.txt">rms_0554170201_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0554170201.zip">Fe_0554170201.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC5506_2015-07-08_0761220101.jpg" width = "280" alt="Fe_NGC5506_2015-07-08_0761220101.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC5506_2015-07-08_0761220101.eps">Fe_NGC5506_2015-07-08_0761220101.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0761220101_LF.txt">rms_0761220101_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0761220101_HF.txt">rms_0761220101_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0761220101.zip">Fe_0761220101.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC5548_2001-07-09_0089960301.jpg" width = "280" alt="Fe_NGC5548_2001-07-09_0089960301.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC5548_2001-07-09_0089960301.eps">Fe_NGC5548_2001-07-09_0089960301.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0089960301_LF.txt">rms_0089960301_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0089960301_HF.txt">rms_0089960301_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0089960301.zip">Fe_0089960301.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC5548_2013-07-07_0720110501.jpg" width = "280" alt="Fe_NGC5548_2013-07-07_0720110501.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC5548_2013-07-07_0720110501.eps">Fe_NGC5548_2013-07-07_0720110501.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0720110501_LF.txt">rms_0720110501_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0720110501_HF.txt">rms_0720110501_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0720110501.zip">Fe_0720110501.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC5548_2013-07-11_0720110601.jpg" width = "280" alt="Fe_NGC5548_2013-07-11_0720110601.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC5548_2013-07-11_0720110601.eps">Fe_NGC5548_2013-07-11_0720110601.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0720110601_LF.txt">rms_0720110601_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0720110601_HF.txt">rms_0720110601_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0720110601.zip">Fe_0720110601.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC5548_2013-07-15_0720110701.jpg" width = "280" alt="Fe_NGC5548_2013-07-15_0720110701.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC5548_2013-07-15_0720110701.eps">Fe_NGC5548_2013-07-15_0720110701.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0720110701_LF.txt">rms_0720110701_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0720110701_HF.txt">rms_0720110701_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0720110701.zip">Fe_0720110701.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC5548_2013-07-25_0720111101.jpg" width = "280" alt="Fe_NGC5548_2013-07-25_0720111101.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC5548_2013-07-25_0720111101.eps">Fe_NGC5548_2013-07-25_0720111101.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0720111101_LF.txt">rms_0720111101_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0720111101_HF.txt">rms_0720111101_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0720111101.zip">Fe_0720111101.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC5548_2013-07-29_0720111301.jpg" width = "280" alt="Fe_NGC5548_2013-07-29_0720111301.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC5548_2013-07-29_0720111301.eps">Fe_NGC5548_2013-07-29_0720111301.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0720111301_LF.txt">rms_0720111301_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0720111301_HF.txt">rms_0720111301_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0720111301.zip">Fe_0720111301.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC5548_2013-12-20_0720111501.jpg" width = "280" alt="Fe_NGC5548_2013-12-20_0720111501.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC5548_2013-12-20_0720111501.eps">Fe_NGC5548_2013-12-20_0720111501.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0720111501_LF.txt">rms_0720111501_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0720111501_HF.txt">rms_0720111501_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0720111501.zip">Fe_0720111501.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC6814_2009-04-22_0550451801.jpg" width = "280" alt="Fe_NGC6814_2009-04-22_0550451801.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC6814_2009-04-22_0550451801.eps">Fe_NGC6814_2009-04-22_0550451801.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0550451801_LF.txt">rms_0550451801_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0550451801_HF.txt">rms_0550451801_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0550451801.zip">Fe_0550451801.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC6814_2016-04-08_0764620101.jpg" width = "280" alt="Fe_NGC6814_2016-04-08_0764620101.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC6814_2016-04-08_0764620101.eps">Fe_NGC6814_2016-04-08_0764620101.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0764620101_LF.txt">rms_0764620101_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0764620101_HF.txt">rms_0764620101_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0764620101.zip">Fe_0764620101.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC7314_2001-05-02_0111790101.jpg" width = "280" alt="Fe_NGC7314_2001-05-02_0111790101.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC7314_2001-05-02_0111790101.eps">Fe_NGC7314_2001-05-02_0111790101.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0111790101_LF.txt">rms_0111790101_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0111790101_HF.txt">rms_0111790101_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0111790101.zip">Fe_0111790101.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC7314_2006-05-03_0311190101.jpg" width = "280" alt="Fe_NGC7314_2006-05-03_0311190101.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC7314_2006-05-03_0311190101.eps">Fe_NGC7314_2006-05-03_0311190101.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0311190101_LF.txt">rms_0311190101_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0311190101_HF.txt">rms_0311190101_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0311190101.zip">Fe_0311190101.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC7314_2013-05-17_0725200101.jpg" width = "280" alt="Fe_NGC7314_2013-05-17_0725200101.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC7314_2013-05-17_0725200101.eps">Fe_NGC7314_2013-05-17_0725200101.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0725200101_LF.txt">rms_0725200101_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0725200101_HF.txt">rms_0725200101_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0725200101.zip">Fe_0725200101.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC7314_2013-11-28_0725200301.jpg" width = "280" alt="Fe_NGC7314_2013-11-28_0725200301.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC7314_2013-11-28_0725200301.eps">Fe_NGC7314_2013-11-28_0725200301.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0725200301_LF.txt">rms_0725200301_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0725200301_HF.txt">rms_0725200301_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0725200301.zip">Fe_0725200301.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC7314_2016-05-14_0790650101.jpg" width = "280" alt="Fe_NGC7314_2016-05-14_0790650101.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC7314_2016-05-14_0790650101.eps">Fe_NGC7314_2016-05-14_0790650101.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0790650101_LF.txt">rms_0790650101_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0790650101_HF.txt">rms_0790650101_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0790650101.zip">Fe_0790650101.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC7469_2004-11-30_0207090101.jpg" width = "280" alt="Fe_NGC7469_2004-11-30_0207090101.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC7469_2004-11-30_0207090101.eps">Fe_NGC7469_2004-11-30_0207090101.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0207090101_LF.txt">rms_0207090101_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0207090101_HF.txt">rms_0207090101_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0207090101.zip">Fe_0207090101.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC7469_2004-12-03_0207090201.jpg" width = "280" alt="Fe_NGC7469_2004-12-03_0207090201.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC7469_2004-12-03_0207090201.eps">Fe_NGC7469_2004-12-03_0207090201.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0207090201_LF.txt">rms_0207090201_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0207090201_HF.txt">rms_0207090201_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0207090201.zip">Fe_0207090201.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC7469_2015-06-12_0760350201.jpg" width = "280" alt="Fe_NGC7469_2015-06-12_0760350201.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC7469_2015-06-12_0760350201.eps">Fe_NGC7469_2015-06-12_0760350201.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0760350201_LF.txt">rms_0760350201_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0760350201_HF.txt">rms_0760350201_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0760350201.zip">Fe_0760350201.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC7469_2015-12-23_0760350501.jpg" width = "280" alt="Fe_NGC7469_2015-12-23_0760350501.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC7469_2015-12-23_0760350501.eps">Fe_NGC7469_2015-12-23_0760350501.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0760350501_LF.txt">rms_0760350501_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0760350501_HF.txt">rms_0760350501_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0760350501.zip">Fe_0760350501.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC7469_2015-12-24_0760350601.jpg" width = "280" alt="Fe_NGC7469_2015-12-24_0760350601.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC7469_2015-12-24_0760350601.eps">Fe_NGC7469_2015-12-24_0760350601.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0760350601_LF.txt">rms_0760350601_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0760350601_HF.txt">rms_0760350601_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0760350601.zip">Fe_0760350601.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC7469_2015-12-26_0760350701.jpg" width = "280" alt="Fe_NGC7469_2015-12-26_0760350701.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC7469_2015-12-26_0760350701.eps">Fe_NGC7469_2015-12-26_0760350701.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0760350701_LF.txt">rms_0760350701_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0760350701_HF.txt">rms_0760350701_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0760350701.zip">Fe_0760350701.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_NGC7469_2015-12-28_0760350801.jpg" width = "280" alt="Fe_NGC7469_2015-12-28_0760350801.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_NGC7469_2015-12-28_0760350801.eps">Fe_NGC7469_2015-12-28_0760350801.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0760350801_LF.txt">rms_0760350801_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0760350801_HF.txt">rms_0760350801_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0760350801.zip">Fe_0760350801.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_PG1211+143_2014-06-16_0745110201.jpg" width = "280" alt="Fe_PG1211+143_2014-06-16_0745110201.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_PG1211+143_2014-06-16_0745110201.eps">Fe_PG1211+143_2014-06-16_0745110201.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0745110201_LF.txt">rms_0745110201_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0745110201_HF.txt">rms_0745110201_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0745110201.zip">Fe_0745110201.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_PG1211+143_2014-07-07_0745110701.jpg" width = "280" alt="Fe_PG1211+143_2014-07-07_0745110701.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_PG1211+143_2014-07-07_0745110701.eps">Fe_PG1211+143_2014-07-07_0745110701.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0745110701_LF.txt">rms_0745110701_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0745110701_HF.txt">rms_0745110701_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0745110701.zip">Fe_0745110701.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_SWIFTJ2127.4+5654_2010-11-29_0655450101.jpg" width = "280" alt="Fe_SWIFTJ2127.4+5654_2010-11-29_0655450101.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_SWIFTJ2127.4+5654_2010-11-29_0655450101.eps">Fe_SWIFTJ2127.4+5654_2010-11-29_0655450101.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0655450101_LF.txt">rms_0655450101_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0655450101_HF.txt">rms_0655450101_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0655450101.zip">Fe_0655450101.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_SWIFTJ2127.4+5654_2012-11-04_0693781701.jpg" width = "280" alt="Fe_SWIFTJ2127.4+5654_2012-11-04_0693781701.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_SWIFTJ2127.4+5654_2012-11-04_0693781701.eps">Fe_SWIFTJ2127.4+5654_2012-11-04_0693781701.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0693781701_LF.txt">rms_0693781701_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0693781701_HF.txt">rms_0693781701_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0693781701.zip">Fe_0693781701.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_SWIFTJ2127.4+5654_2012-11-06_0693781801.jpg" width = "280" alt="Fe_SWIFTJ2127.4+5654_2012-11-06_0693781801.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_SWIFTJ2127.4+5654_2012-11-06_0693781801.eps">Fe_SWIFTJ2127.4+5654_2012-11-06_0693781801.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0693781801_LF.txt">rms_0693781801_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0693781801_HF.txt">rms_0693781801_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0693781801.zip">Fe_0693781801.zip</a>
+    <p></p>
+    <img src="../rms_release/Fe_plot_jpg/Fe_SWIFTJ2127.4+5654_2012-11-08_0693781901.jpg" width = "280" alt="Fe_SWIFTJ2127.4+5654_2012-11-08_0693781901.jpg" align=center />
+    <p></p>
+    Download picture: <a href="../rms_release/Fe_plot_eps/Fe_SWIFTJ2127.4+5654_2012-11-08_0693781901.eps">Fe_SWIFTJ2127.4+5654_2012-11-08_0693781901.eps</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include txt files): <a href="../rms_release/Fe_file_txt/rms_0693781901_LF.txt">rms_0693781901_LF.txt</a> <a href="../rms_release/Fe_file_txt/Fe_0693781901_HF.txt">rms_0693781901_HF.txt</a>
+    <p></p>
+    Download the fractional LF&HF rms data (include pha,arf,rmf files, for joint modelling in xspec): <a href="../rms_release/Fe_file/Fe_0693781901.zip">Fe_0693781901.zip</a>
+    <p></p>
+
+
+<!--Results-->
+
+
+
+<script type="text/x-mathjax-config">
+(function () {
+
+MathJax.Hub.Config({
+	'showProcessingMessages': false,
+	'messageStyle': 'none'
+});
+
+if (typeof MathJaxListener !== 'undefined') {
+	MathJax.Hub.Register.StartupHook('End', function () {
+		MathJaxListener.invokeCallbackForKey_('End');
+	});
+}
+
+})();
+</script>
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+</body>
+
+</html>
